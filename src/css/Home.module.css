@@ -1,0 +1,44 @@
+.bodyStyle {
+    background-color: #000000;
+}
+.movieBoxCover {
+    width: 50%;
+    padding: 0.5rem;
+}
+.movieBox {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    transition: all 0.5s ease;
+}
+.movieBox:hover {
+    background-color: #1b1f40;
+    transform: scale(1.02);
+}
+.movieBox img {
+   width: 100%;
+}
+.movieBox h1 {
+    font-size: 20px;
+    margin: 1rem 0;
+}
+.genre {
+    list-style: none;
+    display: inline-flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.genre li {
+    margin: 5px 5px 5px 0;
+    padding: 4px 5px;
+    border-radius: 3px;
+    background-color: tomato;
+}
+
+@media (min-width: 765px) {
+    .movieBoxCover {width: 33.33333333%;}
+}
+@media (min-width: 961px) {
+    .movieBoxCover {width: 25%;}
+}
